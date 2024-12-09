@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edgar Cardenas | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="hero">
+    <div class="intro">
+      <h1>Hello, I'm Edgar Cardenas</h1>
+      <p>I turn caffeine and ideas into lines of code and solutions.</p>
+      <img src="images/chillguy.jpg" alt="Edgar Cardenas" class="profile-img">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p><strong>Background:</strong><br>
+      <em>Education:</em><br>
+      High School Diploma Diego Rivera Learning Complex<br>
+      In process BS Computer Science Cal State University Fullerton
+    </p>
+    <p><strong>Skills:</strong><br>
+      Proficient in C++<br>
+      Proficient in Python<br>
+      Basic Knowledge in JavaScript, CSS, HTML, React<br>
+      Little Experience with API
+    </p>
+    <p><strong>Interests:</strong><br>
+      Anything to do with numbers (Math, Finance, Economy), solving problems, exploring new technologies, soccer, baseball, and video games.
+    </p>
+    <a href="resume.pdf" download class="btn">Download My Resume</a>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project">
+        <h3>Simple Inventory Management System</h3>
+        <p>Description: A basic application to track and manage inventory items. Users can add, view, update, and delete items.</p>
+        <p><strong>Technologies Used:</strong> Python, CSV</p>
+        <p><strong>Challenges:</strong> Designing a user-friendly interface, handling CSV data persistence, debugging.</p>
+        <p><strong>Outcome:</strong> A functional inventory system with hands-on experience in file handling in Python.</p>
+      </div>
+      <div class="project">
+        <h3>Body Mass Index (BMI) Calculator</h3>
+        <p>Description: A program to calculate BMI and categorize it (underweight, normal, overweight, obese).</p>
+        <p><strong>Technologies Used:</strong> C++, Xcode</p>
+        <p><strong>Challenges:</strong> Understanding the BMI formula, input validation, formatting output.</p>
+        <p><strong>Outcome:</strong> A working BMI calculator that learns error-checking and arithmetic operations in C++.</p>
+      </div>
+      <div class="project">
+        <h3>File Reader Program</h3>
+        <p>Description: A program that reads a text file and displays its contents along with line, word, and character count.</p>
+        <p><strong>Technologies Used:</strong> C++, Xcode</p>
+        <p><strong>Challenges:</strong> Handling file input/output operations and empty/special character files.</p>
+        <p><strong>Outcome:</strong> A program that processes text files, providing analysis and string manipulation in C++.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div class="skill">
+        <h3>C++</h3>
+        <div class="skill-bar"><span style="width: 100%"></span></div>
+      </div>
+      <div class="skill">
+        <h3>Python</h3>
+        <div class="skill-bar"><span style="width: 100%"></span></div>
+      </div>
+      <div class="skill">
+        <h3>JavaScript</h3>
+        <div class="skill-bar"><span style="width: 40%"></span></div>
+      </div>
+      <div class="skill">
+        <h3>CSS</h3>
+        <div class="skill-bar"><span style="width: 40%"></span></div>
+      </div>
+      <div class="skill">
+        <h3>HTML</h3>
+        <div class="skill-bar"><span style="width: 40%"></span></div>
+      </div>
+      <div class="skill">
+        <h3>React</h3>
+        <div class="skill-bar"><span style="width: 40%"></span></div>
+      </div>
+      <div class="skill">
+        <h3>API</h3>
+        <div class="skill-bar"><span style="width: 20%"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <form action="submit-form.php" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <div class="social-links">
+      <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>Designed and developed by Edgar Cardenas 884809443</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
